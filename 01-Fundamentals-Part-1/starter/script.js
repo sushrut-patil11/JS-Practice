@@ -31,3 +31,29 @@ console.log(population > avgPopulation);
 const description = "Portugal is in Europe, and its 11 million people speak portuguese";
 console.log(description);
 
+const extrapopulation = population - avgPopulation;
+
+if (population > avgPopulation) {
+    console.log(`My countrys population is ${extrapopulation} above than average`);
+}
+
+/*let numNeighbours = prompt('How many neighbour countries does your contry have?');
+
+if (Number(numNeighbours) === 1) {
+    console.log("Only 1 border");
+} else if (Number(numNeighbours > 1)) {
+    console.log("More than 1 borders");
+} else {
+    console.log("zero border");
+} */
+
+const sarahLang = "english";
+const sarahPop = 5000000;
+const sarahIsland = false;
+
+
+if (sarahLang === language && sarahPop > population && sarahIsland === isIsland) {
+    console.log("Sarah should live in INDIA");
+} else {
+    console.log("Sarah should not live in INDIA");
+}
