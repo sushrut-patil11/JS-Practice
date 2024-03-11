@@ -57,3 +57,5 @@ if (sarahLang === language && sarahPop > population && sarahIsland === isIsland)
 } else {
     console.log("Sarah should not live in INDIA");
 }
+
+(population > avgPopulation) ? console.log("INDIA's population is above average") : console.log("INDIA's population is below average");
